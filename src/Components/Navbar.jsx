@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-             <NavLink className={"nav-link"} style={({isActive}) =>({boxShadow:isActive? "0px 0px 16px 0px rgba(37,47,160,1)":"none"})} to={"home"} ><AiFillHome className='nav-icon' /> </NavLink>
+             <NavLink className={"nav-link"} style={({isActive}) =>({boxShadow:isActive? "0px 0px 16px 0px rgba(37,47,160,1)":"none"})} to={"/"} ><AiFillHome className='nav-icon' /> </NavLink>
         </li>
         <li>
              <NavLink className={"nav-link"} style={({isActive}) =>({boxShadow:isActive? "0px 0px 16px 0px rgba(37,47,160,1)":"none"})} to={"about"} ><BiSolidUser className='nav-icon'/> </NavLink>

@@ -3,6 +3,8 @@ import './App.scss'
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
+import Portfolio from "./Components/Portfolio";
+import Contact from "./Components/Contact";
 
 
 
@@ -12,13 +14,11 @@ function App() {
     
     <Routes>
       {/* <Route path="/*" element={<LoadingPage />} /> */}
-      <Route path="/*" element={<Navbar />} >
-       <Route path="home" element={<Home />} />
+      <Route path="/" element={<Navbar />} >
+       <Route path="/" element={<Home />} />
        <Route path="about" element={<About />} />
-       {/* <Route path="gallery" element={<Gallery />} /> */}
-       {/* <Route path="contact" element={<Contact />} /> */}
-       {/* <Route path="news" element={<News />} /> */}
-       {/* <Route path="news/:newsId" element={<Content />} /> */}
+       <Route path="portfolio" element={<Portfolio />} />
+       <Route path="contact" element={<Contact />} />
       </Route>
       
 

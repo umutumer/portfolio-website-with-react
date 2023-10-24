@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-title {
+  font-size: 80px;
+  font-weight: 600;
+  background: linear-gradient(to right, #252fa0, #006efd);
+  background-clip: text;
+  color: transparent;
+  display: inline;
+  margin-bottom: 50px;
+}
+.experience{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.experience-title h3{
+  font-weight: 600;
+  font-size: 30px;
+  background: linear-gradient(to right, #252fa0, #006efd);
+  background-clip: text;
+  color: transparent;
+  display: inline;
+}
+.experience-items{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.experience-item{
+  width: 400px;
+  margin: 10px;
+}
+.progess-line{
+  margin-top: 7px;
+  height: 10px;
+  width: 100%;
+  background-color: #cdcdcd;
+  border-radius: 50px;
+  position: relative;
+}
+.progess-line span{
+  position: absolute;
+  height: 10px;
+  background:linear-gradient(to right, #252fa0, #006efd);
+  border-radius: 50px 0 0 50px;
+}
+.education{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.education-title h3{
+  font-weight: 600;
+  font-size: 30px;
+  background: linear-gradient(to right, #252fa0, #006efd);
+  background-clip: text;
+  color: transparent;
+  display: inline;
+}
+.education-items{
+  display: flex;
+  flex-wrap: wrap;
+}
+.education-item{
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #cdcdcd;
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+}
+.education-item p{
+  font-size: 20px;
+  margin: 10px;
+}
+.education-item h3{
+  font-size: 20px;
+  margin: 10px;
+}
+.education-icon{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 40px;
+  padding: 5px;
+  color: #fff;
+  background: linear-gradient(to right, #252fa0, #006efd);
+  border-radius: 50%;
+}

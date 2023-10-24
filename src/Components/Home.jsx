@@ -47,10 +47,10 @@ const Home = () => {
           <img src={personalPicture} alt="HomeImg" />
         </div>
         <div className="home-content">
-          <p className="home-title">
+          <h2 className="home-title">
             I'M <span>UMUT CAN TUMER</span>
-          </p>
-          <p className="home-title front-dev">{displayText}</p>
+          </h2>
+          <h2 className="home-title front-dev">{displayText}</h2>
           <p style={{fontSize:"20px"}}>
           Hello, I am Umut Can. I have been interested in front-end development for about a year and gaining experience in this field. I developed various projects with HTML, CSS and JavaScript programs. Currently, I am creating websites with React. I continue to improve myself in this field and try to stay informed about the updates in my field.
           </p>
