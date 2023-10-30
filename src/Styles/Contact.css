@@ -6,13 +6,17 @@
 .contact {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contact-container {
   width: 90%;
   height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .contact-title h3 {
   font-size: 80px;
@@ -23,8 +27,84 @@
   display: inline;
   margin: 100px 0;
 }
-.contact-form form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.contact-content {
+  width: 400px;
+}
+.contact-mail span,
+.contact-location span {
+  font-size: 40px;
+  color: #2e2e2e;
+}
+.contact-mail,
+.contact-location {
+  margin-bottom: 50px;
+}
+.contact-icon {
+  font-size: 40px;
+  background: transparent;
+  color: #252fa0;
+}
+.contact-btn{
+  background: none;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+}
+.contact-form {
+  width: 400px;
+}
+.contact-form form {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-form form input {
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.contact-form form textarea {
+  max-width: 90%;
+  min-width: 90%;
+  min-height: 250px;
+  max-height: 250px;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.contact-form-btn{
+  width: 30%;
+  height: 40px;
+  border: 1px solid #e2e2e2;
+  background: linear-gradient(to right, #252fa0, #006efd); 
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 500px){
+  .contact-title h3 {
+    font-size: 50px;
+  }
+  .contact-content {
+    width: 300px;
+  }
+  .contact-mail span,
+  .contact-location span {
+    font-size: 30px;
+  }
+  .contact-icon {
+    font-size: 30px;
+  }
+  .contact-form {
+    width: 300px;
+  }
 }

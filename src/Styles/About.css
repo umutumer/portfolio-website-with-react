@@ -44,7 +44,6 @@
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-
 }
 .experience-item{
   width: 400px;
@@ -83,6 +82,7 @@
 .education-items{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 .education-item{
   width: 400px;
@@ -112,4 +112,22 @@
   color: #fff;
   background: linear-gradient(to right, #252fa0, #006efd);
   border-radius: 50%;
+}
+@media only screen and (max-width: 500px){
+  .about-title {
+    font-size: 50px;
+  }
+  .experience-item{
+    width: 300px;
+    margin: 10px;
+  }
+  .education-items{
+    justify-content: center;
+  }
+  .education-item{
+    width: 300px;
+  }
+  .experience-items{
+    justify-content: center;
+  }
 }

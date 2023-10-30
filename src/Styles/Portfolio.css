@@ -31,6 +31,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 .portfolio-box {
   display: flex;
@@ -60,4 +61,9 @@
   background-color: #fff;
   font-size: 15px;
   font-weight: 600;
+}
+@media only screen and (max-width: 500px){
+  .portfolio-title h3 {
+    font-size: 50px;
+  }
 }
